@@ -170,7 +170,7 @@ header {
       flex: 1 12%;
       margin-right: 20px;
     }
-    
+
     .step-img img{
       max-width:100%;
     }
@@ -225,7 +225,7 @@ header {
     }
 
     .trainer{
-      margin:0 auto 20px auto;
+      margin:20px;
       background: #024e76;
       color:#fce138;
       flex:1;
