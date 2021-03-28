@@ -61,7 +61,7 @@ header {
 
   header nav ul li a:hover{
     background:var(--primary-color);
-    color:(var(--secondary-color));
+    color:var(--secondary-color);
     border-radius:15px;
     text-shadow:none;
   }
@@ -183,7 +183,7 @@ header {
     height: 20px;
     width: 20px;
     background: rgba(255, 255, 255, 0.75);  
-    border: 1px solid var(--seconardy-color);  
+    border: 1px solid var(--secondary-color);  
     position: absolute;
     top: -4px;
     left: -30px;
@@ -194,19 +194,19 @@ header {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: var(--seconardy-color);
+    background: var(--secondary-color);
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image:radial-gradient(circle,var(--tertiary color),var(--seconardy-color));
+    background-image:radial-gradient(circle,var(--tertiary color),var(--secondary-color));
   }
   
   .checkbox-wrapper label::after {
     content: "";
     height: 6px;
     width: 14px;
-    border-left: 2px solid var(--seconardy-color);
-    border-bottom: 2px solid var(--seconardy-color);
+    border-left: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
@@ -236,7 +236,7 @@ header {
 
   .hero-form button{
     color: var(--primary-color);
-    background-color:var(--seconardy-color);
+    background-color:var(--secondary-color);
     border:none;
     padding:10px 20px;
     font-size:16px;
@@ -261,7 +261,7 @@ header {
     }
 
     .step h3{
-      color: var(--seconardy-color);
+      color: var(--secondary-color);
       font-size:46px;
       flex:1 30%;
     }
@@ -309,12 +309,12 @@ header {
     .step-text h4{
       font-size:26px;
       line-height:1.5;
-      color:var(--seconardy-color);
+      color:var(--secondary-color);
     }
 
     .section-title{
       font-size: 48px;
-      color:var(--seconardy-color);
+      color:var(--secondary-color);
       border-bottom: 3px solid;
       padding-bottom:20px;
       text-align:center;
@@ -340,7 +340,7 @@ header {
 
     .trainer{
       margin:20px;
-      background: var(--seconardy-color);
+      background: var(--secondary-color);
       color:var(--primary-color);
       flex:1;
     }
@@ -379,7 +379,7 @@ header {
     /*reach out styles start*/
 
     .contact{
-      background: var(--seconardy-color);
+      background: var(--secondary-color);
     }
 
     .contact h2{
@@ -398,11 +398,11 @@ header {
     }
 
     .contact-form input, .contact-form textarea{
-      border:1px solid var(--seconardy-color);
+      border:1px solid var(--secondary-color);
       display:block;
       padding:7px 15px;
       font-size:16px;
-      color:var(--seconardy-color);
+      color:var(--secondary-color);
       width:100%;
       margin-bottom:15px;
       margin-top:5px;
@@ -420,7 +420,7 @@ header {
       width:100%;
       border:none;
       background:var(--primary-color);
-      color:var(--seconardy-color);
+      color:var(--secondary-color);
       text-align:center;
       padding:15px 0;
       font-size: 16px;
